@@ -2,6 +2,11 @@
 
 > Made by wolfix
 
+###This tool allows you to know what an email is registered on!
+
+##Service available:
+> Spotify
+
 ## You can't use with this command:
 
 ```
