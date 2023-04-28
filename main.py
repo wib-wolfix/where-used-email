@@ -16,10 +16,6 @@ class WhereUsedEmail:
   end = "\x1b[0m"
 
   def __init__(self):
-    if os.name != "nt":
-      self.print("[-] Windows only")
-      exit()
-
     self.main()
 
   def main(self):
@@ -94,5 +90,7 @@ class WhereUsedEmail:
   def clear(self):
     if os.name == "nt":
       os.system("cls")
+    else:
+      os.system("clear")
 
 WhereUsedEmail()
