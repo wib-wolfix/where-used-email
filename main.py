@@ -9,7 +9,7 @@ import requests
 
 from pystyle import Write, Colors, Colorate
 
-class WhoUsedEmail:
+class WhereUsedEmail:
 
   green = "\x1b[38;2;0;255;0m"
   red = "\x1b[38;2;255;0;0m"
@@ -95,4 +95,4 @@ class WhoUsedEmail:
     if os.name == "nt":
       os.system("cls")
 
-WhoUsedEmail()
+WhereUsedEmail()
