@@ -1,4 +1,4 @@
-# who-used-email
+# where-used-email
 
 > Made by wolfix
 
